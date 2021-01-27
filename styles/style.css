@@ -1,0 +1,116 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: arial,sans-serif;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+#wrapper{
+    width: 80%;
+    min-height: 800px;
+    border: 5px solid #92d050 ;
+}
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+header a{
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 0;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30%;
+    top: 20%;
+    font-size: 72px;
+    color: #92d050;
+}
+
+#main{
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+}
+nav{
+    min-height: 650px;
+    width: 13%;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: #92d050;
+    padding: 8px 16px;
+}
+
+li a:visited{
+    color: #92d050;
+}
+li a:hover {
+    color: #ffffff;
+    background-color: #92d050;
+}
+#content{
+    width: 87%;
+    min-height: 650px;
+    border-top: 5px solid #92d050;
+    border-left: 5px solid #92d050;
+    display: flex;
+    justify-content: center;
+}
+.fpimg{
+    max-width: 600px;
+    max-height: 600px;
+    margin: 20px;
+}
+.fpimg img{
+    width: 100%;
+    height: auto;
+}
+.contactContent{
+    display: block !important;
+}
+.ctrow{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.ctblk{
+    width: 200px;
+}
+.ctTitle{
+    font-size: large;
+    font-weight: bold;
+    color: #92d050;
+}
+.ctInfo{
+    color: #92d050;
+}
+.ctdblk{
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+.optimes{
+    width: 100px;
+}
